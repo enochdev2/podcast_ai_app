@@ -1,7 +1,7 @@
 const authConfig = {
   providers: [
     {
-      domain: "https://fond-sawfly-54.clerk.accounts.dev",
+      domain: "https://quick-hermit-48.clerk.accounts.dev",
       applicationID: "convex",
     },
   ]

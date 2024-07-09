@@ -40,7 +40,7 @@ const useGeneratePodcast = ({
         voice: voiceType,
         input: voicePrompt
       })
-
+ 
       const blob = new Blob([response], { type: 'audio/mpeg' });
       const fileName = `podcast-${uuidv4()}.mp3`;
       const file = new File([blob], fileName, { type: 'audio/mpeg' });
@@ -52,7 +52,7 @@ const useGeneratePodcast = ({
 
       const audioUrl = await getAudioUrl({ storageId });
       setAudio(audioUrl!);
-      setIsGenerating(false);
+      setIsGenerating(false); 
       toast({
         title: "Podcast generated successfully",
       })

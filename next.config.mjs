@@ -11,7 +11,7 @@ const nextConfig = {
       },
       {
         protocol: 'https',
-        hostname: 'sleek-capybara-771.convex.cloud'
+        hostname: 'resilient-whale-234.convex.cloud'
       },
       {
         protocol: 'https',
